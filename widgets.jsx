@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tabs from './tabs';
+import Clock from './clock';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(<Root/>, document.getElementById('main'));
@@ -18,6 +19,7 @@ class Root extends React.Component {
     return(
       <div>
         <Tabs panes={panes}/>
+        <Clock/>
       </div>
     );
   }
