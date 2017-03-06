@@ -1,0 +1,23 @@
+body  {
+  margin: 0,
+  padding: 0,
+  border: 0
+}
+
+ul {
+  display: flex
+
+}
+li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+
+p  {
+margin: auto 0;
+}
+
+li:hover {
+  background-color: lightblue;
+}

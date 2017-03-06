@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -13,11 +12,12 @@ const panes  = [
   {title: 'fourth', content: 'fourth description'},
 ];
 
-class Roots extends React.Component {
+class Root extends React.Component {
   render() {
     return(
       <div>
         <Tabs panes={panes}/>
+        <Clock/>
       </div>
     );
   }
